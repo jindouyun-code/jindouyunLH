@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Logs
+*.log
+
+# Backtest results data
+backtest_results/
+
+# TV market data (large CSVs)
+TV 数据/
+
+# WEB display data
+WEB展示/backtest_results/
+
+# Strategy archives
+策略备份/
+策略打包/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints
+
+# Freqtrade
+.user_data/
+tradesv3.sqlite
